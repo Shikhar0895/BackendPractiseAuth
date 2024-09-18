@@ -1,0 +1,29 @@
+body {
+  padding: 24px;
+  background-color: rgb(110, 132, 194);
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: azure;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+
+.form {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+#formContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#outerFormContainer {
+  display: flex;
+  flex-direction: column;
+}

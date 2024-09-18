@@ -1,0 +1,22 @@
+[
+  {
+    username: 'Bharat567',
+    password: 'Shakti34346',
+    courses: 'Backend, frontend, web3'
+  },
+  {
+    username: 'Ram567',
+    password: 'Shakti34346',
+    courses: 'Backend, frontend'
+  },
+  {
+    username: 'Lakshman567',
+    password: 'Shakti34346',
+    courses: 'Backend'
+  }
+]
+
+{"username":"Shatrughn567","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoYXRydWdobjU2NyIsImlhdCI6MTcyNjQxMTI0Mn0.TGJTIu9lPldY-fS_79_rzKgjQcXx79v95LZdXNKSbm0"}
+
+
+{"username":"Bharat567","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJoYXJhdDU2NyIsImlhdCI6MTcyNjQxMTMwMn0.AjT4e5QXvLx51SvcAtLT1Dcd7161lOy7Cub5vdTlG5g"}

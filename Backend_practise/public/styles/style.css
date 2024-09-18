@@ -1,0 +1,22 @@
+body {
+  font-family: system-ui;
+  background-color: #3c90d1;
+  color: azure;
+  padding: 24px;
+  margin: 0;
+}
+
+.button {
+  padding: 20px 10px 20px 10px;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 20px 0px;
+}

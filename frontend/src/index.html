@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Simple Frontend</title>
+  </head>
+  <body>
+    <h1>Welcome to my frontend</h1>
+    <div id="notLoggedIn">
+      <form class="form" id="signupForm">
+        <h4>Signup Form</h4>
+        <div style="display: flex; flex-direction: column; gap: 20px">
+          <div style="display: flex; gap: 20px">
+            <label for="signup_username">Username</label>
+            <input
+              type="text"
+              name="signup_username"
+              id="signup_username"
+              class="signup_username"
+            />
+            <label for="signup_password">password</label>
+            <input
+              type="password"
+              name="signup_password"
+              id="signup_password"
+              class="signup_password"
+            />
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 20px">
+            <label for="IndividualInfo" name="IndividualInfo">Courses</label>
+            <label for="webDev">Web Dev</label>
+            <input
+              type="checkbox"
+              name="webDev"
+              id="webDev"
+              data-courseid="1"
+            />
+            <label for="AI">AI</label>
+            <input type="checkbox" name="AI" id="AI" data-courseid="2" />
+            <label for="ML">ML</label>
+            <input type="checkbox" name="ML" id="ML" data-courseid="3" />
+            <label for="DEVOPS">DEVOPS</label>
+            <input type="checkbox" nameDEVOPS id="DEVOPS" data-courseid="4" />
+            <label for="Mobiledev">Mobile developement</label>
+            <input
+              type="checkbox"
+              name="Mobiledev"
+              id="Mobiledev"
+              data-courseid="5"
+            />
+          </div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <form action="" method="post" class="form" id="signinForm">
+        <h4>Signin Form</h4>
+        <label for="signin_username">Username</label>
+        <input
+          type="text"
+          name="signin_username"
+          id="signin_username"
+          class="signin_username"
+        />
+        <label for="signin_password">password</label>
+        <input
+          type="signin_password"
+          name="signin_password"
+          id="signin_password"
+          class="signin_password"
+        />
+        <button type="submit">Submit</button>
+      </form>
+      <button
+        id="sendToken"
+        style="background-color: black; padding: 8px 16px; color: azure"
+      >
+        SendToken
+      </button>
+    </div>
+
+    <div id="userInfoWrapper" style="display: none">
+      <button
+        id="logout"
+        style="background-color: black; padding: 8px 16px; color: azure"
+      >
+        Logout
+      </button>
+      <div id="userInfo"></div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
